@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Serenity tests","Update user test","SUCCESS","2020-10-16T23:04:42.16+02:00[Europe/Paris]","0.0","0.05"
+"Serenity tests","Fact test","SUCCESS","2020-10-19T15:58:57.875+02:00[Europe/Paris]","0.0","2.91"
+"Serenity tests","Get users","SUCCESS","2020-10-22T12:15:39.757+02:00[Europe/Paris]","0.0","2.71"
+"Serenity tests","Register user test","SUCCESS","2020-10-22T12:22:46.05+02:00[Europe/Paris]","0.0","2.56"

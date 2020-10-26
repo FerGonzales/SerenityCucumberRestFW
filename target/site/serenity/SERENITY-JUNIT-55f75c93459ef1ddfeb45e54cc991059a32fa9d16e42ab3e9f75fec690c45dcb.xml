@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="SerenityTests" skipped="0" tests="2" time="3.6" timestamp="2020-10-16 12:10:52"><testcase classname="SerenityTests" name="Get users fail"><failure message="&#10;Expected: &lt;400&gt;&#10;     but: was &lt;200&gt;" type="java.lang.AssertionError">
+Expected: &lt;400&gt;
+     but: was &lt;200&gt;</failure><system-err>
+Expected: &lt;400&gt;
+     but: was &lt;200&gt;&#13;
+SerenityTests.getUsersFail(SerenityTests.java:49)&#13;
+</system-err></testcase><testcase classname="SerenityTests" name="Get users"><failure message="&#10;Expected: not null&#10;     but: was null" type="java.lang.AssertionError">
+Expected: not null
+     but: was null</failure><system-err>
+Expected: not null
+     but: was null&#13;
+SerenityTests.getUsers(SerenityTests.java:32)&#13;
+</system-err></testcase></testsuite>

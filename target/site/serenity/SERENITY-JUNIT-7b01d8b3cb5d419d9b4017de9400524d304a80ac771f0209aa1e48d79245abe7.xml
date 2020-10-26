@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="SerenityTests" skipped="0" tests="1" time="2.38" timestamp="2020-10-16 11:03:16"><testcase classname="SerenityTests" name="Update user test"><failure message="&#10;Expected: &quot;2020-10-16T23:03:19.076Z&quot;&#10;     but: was &quot;2020-10-16T21:03:19.012Z&quot;" type="java.lang.AssertionError">
+Expected: "2020-10-16T23:03:19.076Z"
+     but: was "2020-10-16T21:03:19.012Z"</failure><system-err>
+Expected: "2020-10-16T23:03:19.076Z"
+     but: was "2020-10-16T21:03:19.012Z"&#13;
+SerenityTests.updateUserTest(SerenityTests.java:84)&#13;
+</system-err></testcase></testsuite>
