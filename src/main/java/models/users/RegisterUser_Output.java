@@ -1,6 +1,6 @@
 package models.users;
 
-public class Register_Output {
+public class RegisterUser_Output {
     private Integer id;
     private String token;
 

@@ -1,23 +1,31 @@
 package models.users;
 
-public class RegisterUser_Output {
-    private Integer id;
-    private String token;
+public class UpdateUser_Output {
+    private String name;
+    private String job;
+    private String updatedAt;
 
-    public Integer getId() {
-        return id;
+    public String getName() {
+        return name;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getToken() {
-        return token;
+    public String getJob() {
+        return job;
     }
 
-    public void setToken(String token) {
-        this.token = token;
+    public void setJob(String job) {
+        this.job = job;
     }
 
+    public String getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(String updatedAt) {
+        this.updatedAt = updatedAt;
+    }
 }

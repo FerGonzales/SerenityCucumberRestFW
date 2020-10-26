@@ -1,13 +1,19 @@
 package questions;
 
 import models.users.RegisterUser_Output;
+import models.users.UpdateUser_Output;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
-public class Q_GetRegister implements Question {
+public class Q_GetUpdate implements Question {
+
+    public static void main(String[] args) {
+    }
+
     @Override
-    public RegisterUser_Output answeredBy(Actor actor) {
-        return SerenityRest.lastResponse().as(RegisterUser_Output.class);
+    public UpdateUser_Output answeredBy(Actor actor) {
+
+        return SerenityRest.lastResponse().as(UpdateUser_Output.class);
     }
 }

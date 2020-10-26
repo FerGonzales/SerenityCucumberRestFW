@@ -1,6 +1,6 @@
 package models.users;
 
-public class RegisterUserInfo {
+public class RegisterUser_Input {
     private String name;
     private String job;
     private String email;
